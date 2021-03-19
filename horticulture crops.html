@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+ <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="images/logo.png" rel="icon">
+  <link href="images/logo.png" rel="apple-touch-icon">
+
+<meta content="" name="description">
+  <meta content="" name="keywords">
+<title>Horticulture Crops</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+<style>
+.header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+.main_nav > ul {
+  display: flex;
+}
+
+.main_nav, .main_nav * {
+ 
+  list-style: none;
+}
+.main_nav > ul > li{
+	display: inline-block;
+	margin: 0 0 0 0;
+	font-size: 20px;
+	font-weight: 600;
+	list-style-position: inside;
+    padding-right: 30px;
+	padding-top: 10px;
+	margin-right: 5px;
+}
+.main_nav ul > li > a{
+	color: #000;
+	transition: all 0.3s ease-out;
+	text-decoration:none;
+	position: relative;
+
+}
+.main_nav a:hover, .main_nav .active > a, .main_nav li:hover > a {
+  color: #f12626;
+  
+}
+
+.main_nav ul > li a:before{
+content: "";
+position: absolute;
+top: 110%;
+left: 0;
+width: 0;
+height: 2px;
+border-bottom: 3px solid #f12626;
+transition: all 0.4s linear;
+}
+.main_nav ul > li a:hover:before{
+width: 100%;
+}
+.main_nav ul > li a:hover {
+	color: #f12626;
+}
+.main_nav{
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+
+.bdr-btm{
+	position: relative;
+	padding-bottom: 15px;
+}
+	.bdr-btm:after{
+	content: "";
+	width: 50px;
+	height: 3px;
+	background-color: #f12626;
+	position: absolute;
+	left: 0;
+	top: 100%;
+}
+.bdr-btm.bdr-btm-center:after{
+	left: 50%;
+	margin-left: -50px;
+}
+.portfolio-section{
+	padding: 80px 0;
+}
+.portfolio-section h2{
+	font-size: 40px;
+	color: #333;
+margin: 0 0 40px;
+}
+.portfolio-box{
+	padding-bottom: 50%;
+	background-size: cover;
+	background-position: center center;
+	margin:20px 20px 20px;
+	transition: all 0.3s ease-out;
+	background-blend-mode: darken;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 8px 6px rgba(0, 0, 0, 0.4);	
+}
+.portfolio-box:hover{
+	background-color:rgba(230, 0, 0, 0.58);
+}
+.portfolio-box h3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	color: #fff;
+	transition: all 0.3s ease-out;
+	transform: scale(5);
+	opacity: 0;
+	pointer-events: none;
+}
+.portfolio-box:hover h3{
+	transform: scale(1);
+	opacity: 1;
+}
+.center {
+ margin: auto;
+  width: 60%;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myDIV *").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+</head>
+
+
+<body>
+
+<header class="header">
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-between">
+			<div class="col-md-auto">
+			
+				<a href="index.html" class="logo"><img src="images/logo.png" alt="logo" style="width: 100px; height: 90px;  margin-top: 20px;"></a>
+			</div>
+			<div class="col-md-auto">
+				<nav class="main_nav">
+					<ul>
+						<li><a href="#vegetables">Vegetables</a></li>						
+						<li><a href="#fruits">Fruits</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-auto">
+			<h6 style="text-align: right;">Translate this page: &nbsp&nbsp</h6>
+			<div id="google_translate_element" class="translator"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript">
+(function(){var gtConstEvalStartTime = new Date();/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function d(b){var a=document.getElementsByTagName("head")[0];a||(a=document.body.parentNode.appendChild(document.createElement("head")));a.appendChild(b)}function _loadJs(b){var a=document.createElement("script");a.type="text/javascript";a.charset="UTF-8";a.src=b;d(a)}function _loadCss(b){var a=document.createElement("link");a.type="text/css";a.rel="stylesheet";a.charset="UTF-8";a.href=b;d(a)}function _isNS(b){b=b.split(".");for(var a=window,c=0;c<b.length;++c)if(!(a=a[b[c]]))return!1;return!0}
+function _setupNS(b){b=b.split(".");for(var a=window,c=0;c<b.length;++c)a.hasOwnProperty?a.hasOwnProperty(b[c])?a=a[b[c]]:a=a[b[c]]={}:a=a[b[c]]||(a[b[c]]={});return a}window.addEventListener&&"undefined"==typeof document.readyState&&window.addEventListener("DOMContentLoaded",function(){document.readyState="complete"},!1);
+if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google.translate._const');c._cest = gtConstEvalStartTime;gtConstEvalStartTime = undefined;c._cl='en';c._cuc='googleTranslateElementInit';c._cac='';c._cam='';c._ctkk='445303.2143855006';var h='translate.googleapis.com';var s=(true?'https':window.location.protocol=='https:'?'https':'http')+'://';var b=s+h;c._pah=h;c._pas=s;c._pbi=b+'/translate_static/img/te_bk.gif';c._pci=b+'/translate_static/img/te_ctrl3.gif';c._pli=b+'/translate_static/img/loading.gif';c._plla=h+'/translate_a/l';c._pmi=b+'/translate_static/img/mini_google.png';c._ps=b+'/translate_static/css/translateelement.css';c._puh='translate.google.com';_loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main.js');})();})();
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+			
+			</div>
+		</div>		
+	</div>
+</header>	
+
+	
+<div class="portfolio-section">
+
+		<h2 class="text-center bdr-btm bdr-btm-center" id="vegetables"> &nbsp &nbsp &nbsp Vegetables</h2>
+		
+	
+		<div class="center" style="color: #333; width:40%; background-color: yellow; box-shadow:  8px 8px rgba(0, 0, 0, 0.4); margin-bottom: 20px; border: solid #333; border-radius: 24px; position : center;"><h4><center><b>Kharif Crops</b></center></h4></div>
+		    <div class="row">
+		
+			    <div class="col-md-4">
+			         <a href="lady finger.html">
+					     <div class="portfolio-box" style="background-image: url('images/lady finger.jpg');">
+					         <h3>Lady Finger</h3>	
+				         </div>
+					</a>
+				 </div> 
+				 
+			     <div class="col-md-4">
+				     <a href="bitter gourd.html>"> 
+					     <div class="portfolio-box" style="background-image: url('images/bitter gourd.jpg');">
+					         <h3>Bitter Gourd</h3>
+				         </div>	
+					 </a>	
+			     </div>
+				 
+			     <div class="col-md-4">
+				     <a href="cucumber.html">
+					     <div class="portfolio-box" style="background-image: url('images/cucumber.jpg');">
+					         <h3>Cucumber</h3>
+				         </div>	
+				     </a>	
+			     </div>
+			<div class="col-md-4">
+				<a href="broccoli.html"><div class="portfolio-box" style="background-image: url('images/broccoli.jpg');">
+					<h3>Broccoli</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="lettuce.html"><div class="portfolio-box" style="background-image: url('images/lettuce.png');">
+					<h3>Lettuce</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="spong gourd.html"><div class="portfolio-box" style="background-image: url('images/spong gourd.png');">
+					<h3>Spong Gourd</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="onion.html"><div class="portfolio-box" style="background-image: url('images/onion.jpg');">
+					<h3>Onion</h3>
+				</div>	</a>	
+			</div>
+			</div>
+			
+			<div class="center" style="color: #333; width:40%; background-color: yellow; box-shadow:  8px 8px rgba(0, 0, 0, 0.4); margin-top: 40px; margin-bottom: 20px; border: solid #333; border-radius: 24px; position : center;">
+			<h4><center><b>Rabi Crops</b></center></h4>
+			</div>
+			<div class="row">
+			<div class="col-md-4">
+				<a href="ash gourd.html"><div class="portfolio-box" style="background-image: url('images/ash gourd.jpg');">
+					<h3>Ash Gourd</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="beet root.html"><div class="portfolio-box" style="background-image: url('images/beet root.jpg');">
+					<h3>Beet Root</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="bottle gourd.html"><div class="portfolio-box" style="background-image: url('images/bottle gourd.jpg');">
+					<h3>Bottle Gourd</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="brinjal.html"><div class="portfolio-box" style="background-image: url('images/brinjal.jpg');">
+					<h3>Brinjal</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="cabbage.html"><div class="portfolio-box" style="background-image: url('images/cabbage.jpg');">
+					<h3>Cabbage</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="capsicum.html"><div class="portfolio-box" style="background-image: url('images/capsicum.jpg');">
+					<h3>Capsicum</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="carrot.html"><div class="portfolio-box" style="background-image: url('images/carrot.png');">
+					<h3>Carrot</h3>
+				</div></a>		
+			</div>
+						<div class="col-md-4">
+				<a href="cauliflower.html"><div class="portfolio-box" style="background-image: url('images/cauliflower.jpg');">
+					<h3>Cauliflower</h3>
+				</div></a>		
+			</div>
+						<div class="col-md-4">
+				<a href="celery.html"><div class="portfolio-box" style="background-image: url('images/celery.png');">
+					<h3>Celery</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="chilli.html"><div class="portfolio-box" style="background-image: url('images/chilli.jpg');">
+					<h3>Chilli</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="garlic.html"><div class="portfolio-box" style="background-image: url('images/garlic.jpg');">
+					<h3>Garlic</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="long melon.html"><div class="portfolio-box" style="background-image: url('images/long melon.jpg');">
+					<h3>Long Melon</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="mushroom.html"><div class="portfolio-box" style="background-image: url('images/mushroom.jpg');">
+					<h3>Mushroom</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="potato.html"><div class="portfolio-box" style="background-image: url('images/potato.jpg');">
+					<h3>Potato</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="pumpkin.html"><div class="portfolio-box" style="background-image: url('images/pumpkin.jpg');">
+					<h3>Pumpkin</h3>
+				</div></a>		
+			</div>
+									<div class="col-md-4">
+				<a href="radish.html"><div class="portfolio-box" style="background-image: url('images/radish.jpg');">
+					<h3>Radish</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="spinach.html"><div class="portfolio-box" style="background-image: url('images/spinach.jpg');">
+					<h3>Spinach</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="squash melon.html"><div class="portfolio-box" style="background-image: url('images/squash melon.jpg');">
+					<h3>Squash Melon</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="sweet potato.html"><div class="portfolio-box" style="background-image: url('images/sweet potato.jpg');">
+					<h3>Sweet Potato</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="tomato.html"><div class="portfolio-box" style="background-image: url('images/tomato.jpg');">
+					<h3>Tomato</h3>
+				</div></a>		
+			</div>
+			<div class="col-md-4">
+				<a href="turnip.html"><div class="portfolio-box" style="background-image: url('images/turnip.png');">
+					<h3>Turnip</h3>
+				</div></a>		</div>
+		</div>
+
+		
+		<h2 class="text-center bdr-btm bdr-btm-center" id="fruits">Fruits</h2>
+		<div class="center" style="color: #333; width:40%; background-color: yellow; box-shadow:  8px 8px rgba(0, 0, 0, 0.4); margin-top: 60px; margin-bottom: 20px; border: solid #333; border-radius: 24px; position : center;"><h4><center><b>Kharif Crops</b></center></h4></div>
+		<div class="row">
+		
+			<div class="col-md-4">
+			<a href="blackberry.html"><div class="portfolio-box" style="background-image: url('images/blackberry.png');">
+					 <h3>Black Berry</h3>	
+					
+				</div></a>
+				   </div> 
+			<div class="col-md-4">
+				<a href="kinnow.html>"><div class="portfolio-box" style="background-image: url('images/kinnow.jpg');">
+					<h3>Kinnow</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="lemon.html"><div class="portfolio-box" style="background-image: url('images/lemon.png');">
+					<h3>Lemon</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="lime.html"><div class="portfolio-box" style="background-image: url('images/lime.jpg');">
+					<h3>Lime</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="loquat.html"><div class="portfolio-box" style="background-image: url('images/loquat.jpg');">
+					<h3>Loquat</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="malta.html"><div class="portfolio-box" style="background-image: url('images/malta.jpg');">
+					<h3>Malta</h3>
+				</div></a>		
+			</div>
+		    <div class="col-md-4">
+				<a href="mulberry.html"><div class="portfolio-box" style="background-image: url('images/mulberry.jpg');">
+					<h3>Mulberry</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="orange.html"><div class="portfolio-box" style="background-image: url('images/orange.png');">
+					<h3>orange</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="papaya.html"><div class="portfolio-box" style="background-image: url('images/papaya.jpg');">
+					<h3>Papaya</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="peach.html"><div class="portfolio-box" style="background-image: url('images/peach.jpg');">
+					<h3>Peach</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="plum.html"><div class="portfolio-box" style="background-image: url('images/plum.jpg');">
+					<h3>Plum</h3>
+				</div>	</a>	
+			</div>
+		</div>
+			
+		<div class="center" style="color: #333; width:40%; background-color: yellow; box-shadow:  8px 8px rgba(0, 0, 0, 0.4); margin-top: 40px; margin-bottom: 20px; border: solid #333; border-radius: 24px; position : center;"><h4><center><b>Rabi Crops</b></center></h4></div>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="apple.html"><div class="portfolio-box" style="background-image: url('images/apple.jpg');">
+					<h3>Apple</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="banana.html"><div class="portfolio-box" style="background-image: url('images/banana.jpg');">
+					<h3>Banana</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="grapes.html"><div class="portfolio-box" style="background-image: url('images/grapes.png');">
+					<h3>Grapes</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="guava.html"><div class="portfolio-box" style="background-image: url('images/guava.jpg');">
+					<h3>Guava</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="litchi.html"><div class="portfolio-box" style="background-image: url('images/litchi.webp');">
+					<h3>Litchi</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="mango.html"><div class="portfolio-box" style="background-image: url('images/mango.jpg');">
+					<h3>Mango</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="muskmelon.html"><div class="portfolio-box" style="background-image: url('images/muskmelon.jpg');">
+					<h3>Musk Melon</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="pear.html"><div class="portfolio-box" style="background-image: url('images/pear.jpg');">
+					<h3>Pear</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="pomegranate.html"><div class="portfolio-box" style="background-image: url('images/pomegranate.jpg');">
+					<h3>Pomegranate</h3>
+				</div>	</a>	
+			</div>
+			<div class="col-md-4">
+				<a href="sapota.html"><div class="portfolio-box" style="background-image: url('images/sapota.jpeg');">
+					<h3>Sapota</h3>
+				</div>	</a>	
+			</div>	
+			<div class="col-md-4">
+				<a href="watermelon.html"><div class="portfolio-box" style="background-image: url('images/watermelon.jpg');">
+					<h3>Water Melon</h3>
+				</div>	</a>	
+			</div>	
+				
+	</div>
+	</div>
+</body>
+</html>
